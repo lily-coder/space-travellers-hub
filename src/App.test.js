@@ -1,5 +1,6 @@
+/* eslint no-unused-vars: 0 no-undef: 0 */
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from './App.js';
 
 test('renders learn react link', () => {
   render(<App />);
