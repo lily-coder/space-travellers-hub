@@ -1,3 +1,4 @@
+/* eslint no-unused-vars : "off" */
 import React from 'react';
 
 const Header = () => (
