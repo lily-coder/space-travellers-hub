@@ -1,12 +1,13 @@
 /* eslint no-unused-vars : "off" */
 import React from 'react';
 
-function Rockets() {
+const Rockets = () => {
+  const r = '';
   return (
     <div>
       My Rockets
     </div>
   );
-}
+};
 
 export default Rockets;
