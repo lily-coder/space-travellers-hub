@@ -31,7 +31,14 @@ li {
 }
 
 .logo {
-  width: 50px;
+  display: flex;
+  gap: 11px;
+  padding: 6px 0 0 2px;
+  font-size: 1.5rem;
+}
+
+.header-logo {
+  padding-top: 4px;
 }
 
 .header-navbar {
@@ -49,7 +56,7 @@ li {
   margin-left: 1rem;
   margin-right: 1rem;
   cursor: pointer;
-  color: blue;
+  color: rgb(10, 10, 250);
 }
 
 .rockets:active,

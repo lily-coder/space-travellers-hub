@@ -1,16 +1,22 @@
 /* eslint no-unused-vars : "off" */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from '../logo.png';
 
 const Navbar = () => {
   const r = '';
   return (
     <nav className='header-navbar'>
       <div className='logo'>
-        <img alt='logo' src='./logo.png' />
-      </div>
-      <div className="header-logo">
-        <h3>Space Traveler's Hub</h3>
+        <img
+          alt=""
+          src={logo}
+          width="35"
+          height="35"
+          className="header-logo"
+        />
+        {''}
+        Space Traveler's Hub
       </div>
       <div className="header-nav">
         <ul className="header-nav_ul">
