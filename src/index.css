@@ -25,3 +25,35 @@ code {
     'Courier New',
     monospace;
 }
+
+li {
+  list-style: none;
+}
+
+.logo {
+  width: 50px;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav_ul {
+  display: flex;
+}
+
+.rockets,
+.missions,
+.profile {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  color: blue;
+}
+
+.rockets:active,
+.missions:active,
+.profile:active {
+  text-decoration: underline;
+}
