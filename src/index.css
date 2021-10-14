@@ -33,17 +33,32 @@ li {
 .logo {
   display: flex;
   gap: 10px;
-  padding: 6px 0 0 2px;
+  padding: 0%;
   font-size: 1.5rem;
+  align-items: center;
 }
 
 .header-logo {
   padding-top: 4px;
 }
 
+.header-nav_ul,
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .header-navbar {
   display: flex;
+  width: 95%;
   justify-content: space-between;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+
+.space-travellers {
+  font-size: 1.5em;
+  padding: 0%;
 }
 
 .header-nav_ul {
@@ -108,4 +123,30 @@ li {
   background-color: white;
   border-radius: 5px;
   color: black;
+}
+
+.profile-section {
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+
+.my-rockets-profile,
+.my-missions-profile {
+  width: 48%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.profile-rocket-name {
+  border: 0.5px solid gray;
+  height: 4rem;
+  padding-left: 1rem;
+  padding-top: 0.8rem;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.profile-headers {
+  margin-left: 2.5rem;
 }
