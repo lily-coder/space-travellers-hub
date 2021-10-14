@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 import Header from './components/Header.js';
 import Rockets from './components/Rockets.js';
-import Missions from './components/missions/Missions.js';
+import Missions from './components/Missions.js';
 import Profile from './components/Profile.js';
 
 const App = () => (
@@ -18,8 +18,8 @@ const App = () => (
         <Route exact path='/'>
           <Rockets />
         </Route>
-        <Route path='/Missions'>
-          <Missions />
+        <Route path='/'>
+        <Missions />
         </Route>
         <Route path='/Profile'>
           <Profile />
