@@ -49,7 +49,7 @@ const MissionsList = () => {
               memberStatus = 'Active member';
             } else {
               memberAction = 'Join mission';
-              memberStatus = 'Not a member';
+              memberStatus = 'NOT A MEMBER';
             }
             return (
               <tr key={mission.mission_id} className="pb-5">
