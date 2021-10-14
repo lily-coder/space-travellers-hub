@@ -94,3 +94,18 @@ li {
   margin-top: 0%;
   margin-bottom: 0%;
 }
+
+.reserved-span {
+  background-color: #5799aa;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.unreserve-btn {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
