@@ -22,7 +22,7 @@ export const leaveMission = (payload) => ({
   payload,
 });
 
-const reducer = (state = initialState, action) => {
+const missionsReducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_DATA:
       return action.payload;
@@ -49,4 +49,4 @@ const reducer = (state = initialState, action) => {
   }
 };
 
-export default reducer;
+export default missionsReducer;

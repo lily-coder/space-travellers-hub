@@ -1,6 +1,6 @@
 /* eslint no-unused-vars : "off" */
 import React from 'react';
-import RocketsCards from './RocketsCards.js';
+import RocketsCards from '../pages/RocketsCards.js';
 
 const Rockets = () => {
   const r = '';

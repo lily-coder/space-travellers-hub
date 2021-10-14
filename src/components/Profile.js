@@ -1,4 +1,4 @@
-/* eslint no-unused-vars : "off" */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
 const Profile = () => {
