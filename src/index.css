@@ -64,3 +64,33 @@ li {
 .profile:active {
   text-decoration: underline;
 }
+
+.rocket-card {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.rockets-div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.rockets-desc {
+  margin: 1rem;
+}
+
+.rockets-desc-btn {
+  width: 150px;
+  height: 30px;
+  background-color: blue;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.rockets-desc-title {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}

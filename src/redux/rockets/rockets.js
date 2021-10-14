@@ -14,7 +14,7 @@ const reducer = (state = initialState, action) => {
         id: key.id,
         rocket_name: key.rocket_name,
         description: key.description,
-        flickr_images: '',
+        flickr_images: key.flickr_images[0],
         reserved: false,
       }));
     default:
