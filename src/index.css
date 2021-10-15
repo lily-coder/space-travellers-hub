@@ -74,12 +74,6 @@ li {
   color: rgba(32, 5, 185, 0.918);
 }
 
-.rockets:active,
-.missions:active,
-.profile:active {
-  text-decoration: underline;
-}
-
 .rocket-card {
   margin-left: 5%;
   margin-right: 5%;
