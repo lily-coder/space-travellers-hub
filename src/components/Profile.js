@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import ProfileRocketsDisplay from './ProfileRocketsDisplay.js';
 import ProfileMissionsDisplay from './ProfileMissionsDisplay.js';
+import ProfileRocketsDisplay from './ProfileRocketsDisplay.js';
 
 const Profile = () => {
   const r = '';
