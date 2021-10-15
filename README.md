@@ -4,7 +4,7 @@
 
 > In this task, we are working with the real live data from the SpaceX API. Our task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 
-<!-- [screenshot](./space-hub.PNG) -->
+[screenshot](./Space-travellers-hub.PNG)
 
 ## Built With
 
@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://bookstore455.herokuapp.com/) -->
+[Live Demo Link](https://space-travelers-hub45.herokuapp.com/)
 
 ## Getting Started
 
