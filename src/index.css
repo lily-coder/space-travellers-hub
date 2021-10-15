@@ -216,3 +216,11 @@ td span {
   font-size: 16px;
   margin: 0 11px;
 }
+
+.pb-5:nth-child(odd) {
+  background: #dbdddf;
+}
+
+.pb-5:nth-child(even) {
+  background: rgb(252, 252, 251);
+}
