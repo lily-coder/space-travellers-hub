@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import ProfileMissionsDisplay from './ProfileMissionsDisplay.js';
 import ProfileRocketsDisplay from './ProfileRocketsDisplay.js';
