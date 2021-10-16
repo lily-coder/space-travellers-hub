@@ -1,4 +1,3 @@
-/* eslint no-unused-vars : "off" */
 const GET_ROCKET = 'GET_ROCKET';
 const RESERVE_ROCKET = 'RESERVE_ROCKET';
 const UNRESERVE_ROCKET = 'UNRESERVE_ROCKET';

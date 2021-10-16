@@ -1,4 +1,3 @@
-/* eslint no-unused-vars : "off" */
 import React from 'react';
 import {
   BrowserRouter as Router,

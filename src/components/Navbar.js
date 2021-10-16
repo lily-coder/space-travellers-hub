@@ -1,4 +1,3 @@
-/* eslint no-unused-vars : "off" */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../logo.png';
