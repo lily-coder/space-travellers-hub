@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render the header Renders the header 1`] = `
+<nav
+  className="header-navbar"
+>
+  <div
+    className="logo"
+  >
+    <img
+      alt=""
+      className="header-logo"
+      height="50"
+      src="logo.png"
+      width="50"
+    />
+    
+    <p
+      className="space-travellers"
+    >
+      Space Traveler's Hub
+    </p>
+  </div>
+  <div
+    className="header-nav"
+  >
+    <ul
+      className="header-nav_ul"
+    >
+      <li
+        className="rockets"
+      >
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Rockets
+        </a>
+      </li>
+      <li
+        className="missions"
+      >
+        <a
+          aria-current={null}
+          href="/Missions"
+          onClick={[Function]}
+        >
+          Missions
+        </a>
+      </li>
+      <li
+        className="profile"
+      >
+        <a
+          aria-current={null}
+          href="/Profile"
+          onClick={[Function]}
+        >
+          My Profile
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
