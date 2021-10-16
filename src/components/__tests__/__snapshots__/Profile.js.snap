@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render the rockets and profile list Renders the rockets and profile list correctly 1`] = `
+Array [
+  <div>
+    <ul />
+  </div>,
+  <div>
+    <ul />
+  </div>,
+]
+`;
