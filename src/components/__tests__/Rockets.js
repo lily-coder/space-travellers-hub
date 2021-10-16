@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import TestRenderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import Rockets from '../Rockets.js';
