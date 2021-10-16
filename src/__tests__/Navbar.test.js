@@ -4,8 +4,8 @@ import {
   BrowserRouter as Router,
 } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from '../../redux/configStore.js';
-import Navbar from '../Navbar.js';
+import store from '../redux/configStore.js';
+import Navbar from '../components/Navbar.js';
 
 describe('Render the Navbar', () => {
   it('Renders the navbar', () => {

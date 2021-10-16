@@ -1,8 +1,8 @@
 import TestRenderer from 'react-test-renderer';
 import '@testing-library/jest-dom/extend-expect.js';
 import { Provider } from 'react-redux';
-import store from '../../redux/configStore.js';
-import ProfileMissionsDisplay from '../ProfileMissionsDisplay.js';
+import store from '../redux/configStore.js';
+import ProfileMissionsDisplay from '../components/ProfileMissionsDisplay.js';
 
 describe('Render the missions list in profile page', () => {
   it('Renders the missions list in profile page correctly', () => {
