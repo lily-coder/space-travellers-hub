@@ -6,9 +6,15 @@ import Missions from '../components/Missions.js';
 
 describe('Render the missions lists', () => {
   it('Renders the missions correctly', () => {
+    const mission = {
+      id: 2,
+      mission_name: 'one',
+      description: 'a mission',
+      joined: true,
+    };
     const missions = TestRenderer.create(
       <Provider store={store}>
-        <Missions />
+        <Missions key={mission.id} missions={mission}/>
       </Provider>,
     ).toJSON();
     expect(missions).toMatchSnapshot();
