@@ -212,9 +212,9 @@ td span {
 }
 
 .pb-5:nth-child(odd) {
-  background: #dbdddf;
+  background: #eef0f1;
 }
 
 .pb-5:nth-child(even) {
-  background: rgb(252, 252, 251);
+  background: rgb(253, 253, 253);
 }
